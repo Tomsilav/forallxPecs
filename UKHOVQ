@@ -1,0 +1,30 @@
+Proofs and models
+Igazolások és modellek
+
+As you might already suspect, there is a connection between theorems and tautologies.
+	Ezt ahogy már alapból sejthetted, van kapcsolat az szabály és a tautológia között.
+
+There is a formal way of showing that a sentence is a theorem: Prove it. For each line, we can check to see if that line follows by the cited rule. It may be hard to produce a twenty line proof, but it is not so hard to check each line of the proof and confirm that it is legitimate— and if each line of the proof individually is legitimate, then the whole proof is legitimate. Showing that a sentence is a tautology, though, requires reasoning in English about all possible models. There is no formal way of checking to see if the reasoning is sound. Given a choice between showing that a sentence is a theorem and showing that it is a tautology, it would be easier to show that it is a theorem.
+	Van egy formális út, hogy bemutassuk, hogy a tétel egy szabály: Bizonyítsd be. Az összes sorra, letudjuk ellenőrizni, hogy az adott sor követi-e a hivatkozott szabályt. Nehéz lehet létrehozni egy 20 soros bizonyítást, viszont nem nehéz ellenőrizni az összes sor bizonyosságát, és megerősíteni, hogy az helyes –és, ha az összes sor a bizonyításból egyénileg helyes, akkor az egész bizonyítás helyes. Bemutatni, hogy a tétel egy tautológia,nehéz, az angolban megköveteli az okokat az összes lehetséges modellektől. Itt nincsen formális út, hogy leellenőrizzük, hogy lássuk, ha az érvelés megalapozott. Esélyt adva aközött, hogy bemutassuk a tétel egy szabály és, hogy bemutassuk ez egy tautológia, az egyszerűbb lenne, ha bemutatnánk, hogy ez egy szabály.
+
+Contrawise, there is no formal way of showing that a sentence is not a theorem. We would need to reason in English about all possible proofs. Yet there is a formal method for showing that a sentence is not a tautology. We need only construct a model in which the sentence is false. Given a choice between showing that a sentence is not a theorem and showing that it is not a tautology, it would be easier to show that it is not a tautology.
+	Ellenben, nincs formális út bemutatni, hogy a tétel az nem egy szabály. Az angolban igazolnunk kell az összes lehetséges bizonyítást. Míg van formális metódus, hogy bemutassuk a tétel az nem egy tauklógia. Nekünk csak kreálnunk kell egy modellt amiben a tétel hamis. Választást adni aközött, hogy bemutassuk a tétel az nem egy szabály, és aközött, hogy nem egy tautológia, egyszerűbb lenne bemutatni, hogy ez nem tautológia.
+
+Fortunately, a sentence is a theorem if and only if it is a tautology. If we provide a proof of  |-A and thus show that it is a theorem, it follows that A is a tautology; i.e., |= A. Similarly, if we construct a model in which A is false and thus show that it is not a tautology, it follows that A is not a theorem.
+	Szerencsére a tétel egy szabály akkor és csak akkor, ha az egy tautológia. Ha bizonyítékot szolgáltatunk |-A és így bemutatjuk, hogy ez egy szabály, abból az következik, hogy A egy tautológia; i. e., |=A. Hasonlóképpen, ha konstrutálunk egy modellt ahol A hamis és így bemutatjuk, hogy ez nem tautológia, abból az következik, hogy A nem szabály.
+
+In general, A |- B if and only if A |= B. As such:
+	Általánosságban A |- B akkor és csak akkor ha A |= B Mint olyan:
+
+. An argument is valid if and only if the conclusion is derivable from the premises. 
+	Az érv érvényes akkor és csak akkor ha a következtetés levezethető a helyiségből.
+.Two sentences are logically equivalent if and only if they are provably equivalent. 
+	Két tétel logikailag ekvivalens akkor és csak akkor ha bizonyíthatóan ekvivalensek.
+. A set of sentences is consistent if and only if it is not provably inconsistent.
+	Egy készlet tétel következetes akkor is csak akkor ha az bizonyíthatóan nem következetlen.
+
+You can pick and choose when to think in terms of proofs and when to think in terms of models, doing whichever is easier for a given task. Table 6.1 summarizes when it is best to give proofs and when it is best to give models.
+	Kiválaszthatod, hogy mikor szeretnél gondolkozni a bizonyítások szempontjából, és mikor a modellek szempontjából, Csinálva bármelyik is egyszerűbb az adott feladathoz. A 6.1-es táblázat összefoglalja, hogy mikor a legjobb bizonyításokat adni, és mikor a legjobb modelleket adni.
+
+In this way, proofs and models give us a versatile toolkit for working with arguments. If we can translate an argument into QL, then we can measure its logical weight in a purely formal way. If it is deductively valid, we can give a formal proof; if it is invalid, we can provide a formal counterexample.
+	Ezen az úton a bizonyítások és a modellek sokoldalú eszközkészletet adnak az érvekkel való munka érdekében. Ha letudunk fordítani egy érvelést QL-be, akkor mértékelni tudjuk, hogy logikai súlya van tisztán formális úton. Ha ez deduktív érvényes, formális érvelést tudunk adni; Ha ez érvénytelen akkor ellenpéldát tudunk biztosítani. 
